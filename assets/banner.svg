@@ -1,16 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Muhammad Adi Saputera - Full-Stack and AI Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Muhammad Adi Saputera - Full-Stack and AI Engineer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
       <stop offset="1" stop-color="#1f6feb"/>
     </linearGradient>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
-    </pattern>
+    <clipPath id="clip"><rect width="900" height="240" rx="12"/></clipPath>
   </defs>
-  <rect width="900" height="200" rx="12" fill="url(#bg)"/>
-  <rect width="900" height="200" rx="12" fill="url(#grid)"/>
-  <text x="450" y="92" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#e6edf3">Muhammad Adi Saputera</text>
-  <text x="450" y="132" text-anchor="middle" font-family="'Courier New',Consolas,monospace" font-size="20" fill="#79c0ff">Full-Stack &amp; AI Engineer</text>
-  <text x="450" y="162" text-anchor="middle" font-family="'Courier New',Consolas,monospace" font-size="14" fill="#8b949e">&gt; build: passing_</text>
+  <g clip-path="url(#clip)">
+    <rect width="900" height="240" fill="url(#bg)"/>
+
+    <!-- twinkling stars -->
+    <g fill="#79c0ff">
+      <circle cx="80" cy="40" r="1.6"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="190" cy="95" r="1.2"><animate attributeName="opacity" values="1;0.1;1" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="30" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="45" r="1.6"><animate attributeName="opacity" values="1;0.1;1" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="85" r="1.2"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.2s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="820" cy="35" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="440" cy="20" r="1"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- text -->
+    <text x="450" y="88" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#e6edf3" opacity="0">
+      Muhammad Adi Saputera
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 12" to="0 0" dur="1.2s" fill="freeze"/>
+    </text>
+    <text x="450" y="126" text-anchor="middle" font-family="'Courier New',Consolas,monospace" font-size="20" fill="#79c0ff" opacity="0">
+      Full-Stack &amp; AI Engineer
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.8s" fill="freeze"/>
+    </text>
+    <text x="450" y="154" text-anchor="middle" font-family="'Courier New',Consolas,monospace" font-size="14" fill="#8b949e" opacity="0">
+      &gt; build: passing<tspan>_<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan>
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.5s" fill="freeze"/>
+    </text>
+
+    <!-- waves -->
+    <g transform="translate(0 150)">
+      <path d="M0 0 Q112.5 -36 225 0 T450 0 T675 0 T900 0 T1125 0 T1350 0 T1575 0 T1800 0 V120 H0 Z" fill="#0d1117" fill-opacity="0.35">
+        <animateTransform attributeName="transform" type="translate" from="0 6" to="-450 6" dur="9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M0 0 Q112.5 -36 225 0 T450 0 T675 0 T900 0 T1125 0 T1350 0 T1575 0 T1800 0 V120 H0 Z" fill="#0d1117" fill-opacity="0.55">
+        <animateTransform attributeName="transform" type="translate" from="-450 28" to="0 28" dur="7s" repeatCount="indefinite"/>
+      </path>
+      <path d="M0 0 Q112.5 -36 225 0 T450 0 T675 0 T900 0 T1125 0 T1350 0 T1575 0 T1800 0 V120 H0 Z" fill="#0d1117">
+        <animateTransform attributeName="transform" type="translate" from="0 52" to="-450 52" dur="5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
 </svg>
