@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=180&section=header&text=Muhammad%20Adi%20Saputera&fontColor=e6edf3&fontSize=40&fontAlignY=38&desc=Full-Stack%20%26%20AI%20Engineer&descAlignY=60&descSize=18" alt="header" />
+<img src="assets/banner.svg" alt="Muhammad Adi Saputera - Full-Stack &amp; AI Engineer" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&lines=Full-Stack+%26+AI+Engineer;Technical+Consultant+Analyst;Web+%C2%B7+Mobile+%C2%B7+AI+%C2%B7+REST+APIs)](https://adisaputera.engineer)
 

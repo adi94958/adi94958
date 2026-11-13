@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-label="Muhammad Adi Saputera - Full-Stack and AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#1f6feb"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="200" rx="12" fill="url(#bg)"/>
+  <rect width="900" height="200" rx="12" fill="url(#grid)"/>
+  <text x="450" y="92" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#e6edf3">Muhammad Adi Saputera</text>
+  <text x="450" y="132" text-anchor="middle" font-family="'Courier New',Consolas,monospace" font-size="20" fill="#79c0ff">Full-Stack &amp; AI Engineer</text>
+  <text x="450" y="162" text-anchor="middle" font-family="'Courier New',Consolas,monospace" font-size="14" fill="#8b949e">&gt; build: passing_</text>
+</svg>
