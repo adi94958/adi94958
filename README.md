@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Muhammad Adi Saputera - Full-Stack &amp; AI Engineer" width="100%" />
+<img src="assets/banner-wave.svg" alt="Muhammad Adi Saputera - Full-Stack &amp; AI Engineer" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&lines=Full-Stack+%26+AI+Engineer;Technical+Consultant+Analyst;Web+%C2%B7+Mobile+%C2%B7+AI+%C2%B7+REST+APIs)](https://adisaputera.engineer)
 
