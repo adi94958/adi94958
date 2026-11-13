@@ -87,6 +87,7 @@ I care about clean, readable, tested and maintainable code.
 ## 📫 Let's connect
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=flat-square&logo=googlechrome&logoColor=58a6ff)](https://adisaputera.engineer)
+[![Email](https://img.shields.io/badge/Email-adi94958%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:adi94958@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-muhammad--adi--saputera-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/muhammad-adi-saputera)
 [![Instagram](https://img.shields.io/badge/Instagram-adisaputeraa-0d1117?style=flat-square&logo=instagram&logoColor=E4405F)](https://instagram.com/adisaputeraa)
 [![GitHub](https://img.shields.io/badge/GitHub-adi94958-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/adi94958)
